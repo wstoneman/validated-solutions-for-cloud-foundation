@@ -165,7 +165,7 @@
       http_method: post
       path: "vcenterserver"
       data:
-        name: :{{ VCENTER_CONN_NAME }}"
+        name: "{{ VCENTER_CONN_NAME }}"
         vcenter_url: "{{VCENTER_HOST}}"
         cloud_ref: "/api/cloud/?name={{ CLOUD_NAME }}"
         vcenter_credentials_ref: "/api/cloudconnectoruser/?name={{ NSXT_VCENTER_CLOUDCONNECTORUSER }}"
