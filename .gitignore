@@ -5,3 +5,15 @@
 # Microsoft Visual Code
 ## ignore setting files
 .vscode/settings.json
+
+#Pycharm
+.idea
+.pyc
+
+# HashiCorp Packer
+## Ignore cache directories.
+packer_cache/
+## Ignore the outputs.
+appliance/output-appliance/*.ova
+## Ignore crash log files.
+crash.log
