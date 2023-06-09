@@ -107,6 +107,6 @@ The flow of Actions for this Playbook are:
 
 The following are considerations that need to be understood when executing this Playbook:
 
-* By default the Playbook only creates a single Group Mapping. If additional Group Mappings are required, then additional array elements are required in the variables file, as well as additional Index elements will need to be added to the Assign Policy and Group Mapping section of the remote_auth playbook.
+* By default the Playbook only creates a single Group Mapping. If additional Group Mappings are required, then additional array elements are required in the variables file, as well as additional Index elements will need to be added to the Assign Policy and Group Mapping section of the remote_auth playbook. 
 
 
